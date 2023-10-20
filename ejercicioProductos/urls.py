@@ -21,14 +21,13 @@ from topjugadores.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",index),
-    path("juguetes/",juguetes),
-    path("electronica/",electronica),
-    path("ropa/",ropa),
-    path("jugadores", index2),
-    path("messi", index2),
-    path("koby", index2),
-    path("alexisbigote", index2),
-    path("cr7", index2),
+    path("jugadores/",index2),
+    path("messi/",messi),
+    path("koby/",koby),
+    path("alexisbigote/",alexisbigote),
+    path("cr7/", cr7),
+
+    
 
 
 

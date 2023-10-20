@@ -11,7 +11,7 @@ def messi(request):
         'descripcion':"Jugador argentino",
         'imagen':'imagenes/messi.png'
     }
-    return render(request,'templatesProductos/index2',data)
+    return render(request,'templatesProductos/index2.html',data)
 
 def koby(request):
     data={
@@ -21,7 +21,7 @@ def koby(request):
         'descripcion':"Jugador estadounidense",
         'imagen':'imagenes/koby.png'
     }
-    return render(request,'templatesProductos/index2',data)
+    return render(request,'templatesProductos/index2.html',data)
 
 def alexisbigote(request):
     data={
@@ -31,7 +31,7 @@ def alexisbigote(request):
         'descripcion':"Jugador Chileno",
         'imagen':'imagenes/alexisbigote.png'
     }
-    return render(request,'templatesProductos/index2',data)
+    return render(request,'templatesProductos/index2.html',data)
 
 def cr7(request):
     data={
@@ -41,6 +41,6 @@ def cr7(request):
         'descripcion':"Jugador portugues",
         'imagen':'imagenes/cr7.png'
     }
-    return render(request,'templatesProductos/index2',data)
+    return render(request,'templatesProductos/index2.html',data)
 
 # Create your views here.
