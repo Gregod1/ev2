@@ -25,11 +25,21 @@ def koby(request):
 
 def alexisbigote(request):
     data={
-        "nombre":"Lionel Messi",
-        'edad':"36",
-        'altura':"1,70",
-        'descripcion':"Jugador argentino",
-        'imagen':'imagenes/messi.png'
+        "nombre":"Alexis Sanchez",
+        'edad':"34",
+        'altura':"1,69",
+        'descripcion':"Jugador Chileno",
+        'imagen':'imagenes/alexisbigote.png'
+    }
+    return render(request,'templatesProductos/index2',data)
+
+def cr7(request):
+    data={
+        "nombre":"Cristiano Ronaldo",
+        'edad':"38",
+        'altura':"1,87",
+        'descripcion':"Jugador portugues",
+        'imagen':'imagenes/cr7.png'
     }
     return render(request,'templatesProductos/index2',data)
 
